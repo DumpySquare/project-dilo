@@ -15,25 +15,21 @@ I'm thinking a typical JS/TS back end service, with a website that would call AP
 
 Basic setup, could be considered phase 1
 
-Pro's
+- Pro's
+  - simple architecture
 
-- simple architecture
-
-Con's
-
-- no offline access of information
+- Con's
+  - no offline access of information
 
 ### Mobile Apps (Andriod/IOS)
 
 A more advanced solution would include mobile apps to support offline mode.  While information may not be the absolute latest, having some information could still be very useful
 
-Pro's
+- Pro's
+  - offline access
 
-- offline access
-
-Con's
-
-- more complicated
+- Con's
+  - more complicated
 
 ### Pages
 
@@ -97,7 +93,6 @@ Con's
   - not full blown calendar (maybe)
   - but more of a day by day, hour by hour break down of the whole event
 
-
 ## Phase 1
 
 Phase 1 is purely focused on replacing the current spreadsheet solution
@@ -111,6 +106,10 @@ Phase 1 is purely focused on replacing the current spreadsheet solution
 - user details
 - loads
 
+## Phase 2
+
+Phase 2 could be more focused on an app with caching, schedule, chat and other expanded details for manifest and jumpers
+
 ## integrations
 
 - UPSA?
@@ -119,6 +118,9 @@ Phase 1 is purely focused on replacing the current spreadsheet solution
   - What are people using across the globe? (jump spot app?)
 - Weather
   - Local weather, 24 hours and next 3 days
+- BurbleMe
+  - Is there an API?
+  - Can we access jumper information?
 
 ## additional ideas
 
@@ -167,3 +169,9 @@ https://www.google.com/search?q=manifest+in+greek&sca_esv=ea28a01ba0d65b63&rlz=1
 ### known terms for reference
 
 Altitude, ditter, rig, parachute, helmet, elevation, plane, compass, gyroscope, vector, mirage, micron, firebird, tandem, Icarus
+
+
+
+fun jump, 
+
+burbleme

@@ -66,6 +66,9 @@ A more advanced solution would include mobile apps to support offline mode.  Whi
     - email/phone
     - jumps purchased/used
     - Roles
+      - Admin - master role, can manage money
+      - Manifest role
+        - sometimes they don't want jumpers to manifest
       - Staff (Manifest, Load organizers, Pilots, Medical, riggers, packers, TI)
         - This group can see all details
       - Jumper
@@ -82,6 +85,8 @@ A more advanced solution would include mobile apps to support offline mode.  Whi
   - This could include backside rules to organize the load based on groups, jump types, and fall rates
   - base most information on Skydive Kapowsan
   - Jump vehicles and details
+  - highlight the current jumper in manifest, and allow for search of what jumps a user is in
+    - TI red, staff green, lo blue
 - People
   - List of all people registered for the event, including staff, with pictures
   - mainly pulling details from each account
@@ -134,6 +139,8 @@ Phase 2 could be more focused on an app with caching, schedule, chat and other e
 ### app
 
 - run the app on a raspberry pi to keep the service local (minimize internet connectivity)
+- cloud hosting
+- supporting multiple languages
 
 ## Emergency Details and Proceedures
 
@@ -162,7 +169,7 @@ This sections is for brain storming terms for a product name.  Something unique 
 
 project-dilo
 
-dilotiko, greet for "manifest"
+short for dilotiko, greet for "manifest"
 
 https://www.google.com/search?q=manifest+in+greek&sca_esv=ea28a01ba0d65b63&rlz=1C1WDIF_enUS1065US1065&sxsrf=AHTn8zrg6bK9NnVk3m5yhUmnlPcm9dz1ZA%3A1744360379885&ei=u9P4Z-PdNY-KhbIPyODmqQo&ved=0ahUKEwijp7bmyM-MAxUPRUEAHUiwOaUQ4dUDCBE&uact=5&oq=manifest+in+greek&gs_lp=Egxnd3Mtd2l6LXNlcnAiEW1hbmlmZXN0IGluIGdyZWVrMgoQABiABBhGGP8BMgUQABiABDIGEAAYFhgeMgYQABgWGB4yBhAAGBYYHjIGEAAYFhgeMgYQABgWGB4yBhAAGBYYHjIGEAAYFhgeMgYQABgWGB4yFhAAGIAEGEYY_wEYlwUYjAUY3QTYAQFI3DRQsgZYiC9wAngBkAEDmAHYBaABqjiqAQkzLTkuMy4yLjK4AQPIAQD4AQGYAg6gAtglqAIUwgIKEAAYsAMY1gQYR8ICDRAAGIAEGLADGEMYigXCAhMQLhiABBiwAxjRAxhDGMcBGIoFwgIKECMYgAQYJxiKBcICChAAGIAEGEMYigXCAgoQABiABBgUGIcCwgIHECMYJxjqAsICExAAGIAEGEMYtAIYigUY6gLYAQHCAg0QLhiABBhDGNQCGIoFwgIrEC4YgAQYQxjUAhiKBRiXBRjcBBjeBBjgBBj0AxjxAxj1Axj2Axj3A9gBAcICBRAuGIAEwgIIEAAYFhgKGB6YAwnxBdX_WjiCe2y4iAYBkAYKugYGCAEQARgBkgcHMi4zLTkuM6AHkaEBsgcFMy05LjO4B8El&sclient=gws-wiz-serp
 
@@ -173,5 +180,6 @@ Altitude, ditter, rig, parachute, helmet, elevation, plane, compass, gyroscope, 
 
 
 fun jump, 
+spot assist
 
 burbleme

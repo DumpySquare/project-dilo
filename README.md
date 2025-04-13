@@ -21,6 +21,14 @@ Basic setup, could be considered phase 1
 - Con's
   - no offline access of information
 
+### back end
+
+Back end will be some sort of node.js (TS) based.  Support for websockets should be considered to provide real time updates.  Someone suggested NestJs
+
+### database
+
+Need to research options for long term storage.  JSON files is probably not the best.  First thought is MongoDB, but really open to anything.  the lighter the better.  I don't see any complex or large long term data storage needs.
+
 ### Mobile Apps (Andriod/IOS)
 
 A more advanced solution would include mobile apps to support offline mode.  While information may not be the absolute latest, having some information could still be very useful
@@ -65,6 +73,9 @@ A more advanced solution would include mobile apps to support offline mode.  Whi
     - social media account inputs (facebook, instegram, ...)
     - email/phone
     - jumps purchased/used
+    - last login
+    - last 10 actions
+      - update personal information, manifest for a jump, sign a waver, ...
     - Roles
       - Admin - master role, can manage money
       - Manifest role
@@ -97,6 +108,17 @@ A more advanced solution would include mobile apps to support offline mode.  Whi
   - This could be something like other event apps
   - not full blown calendar (maybe)
   - but more of a day by day, hour by hour break down of the whole event
+- Admin console
+  - This is an admin page for admins to manage the event
+  - include a log for seeing who is doing what
+  - main page pic
+  - boogie details
+  - managing planes
+  - reports?
+    - Number of jumps?
+    - cost per start
+    - cost per jump run
+    - flight telemetry?
 
 ## Phase 1
 
@@ -119,13 +141,23 @@ Phase 2 could be more focused on an app with caching, schedule, chat and other e
 
 - UPSA?
   - Does UPSA have an api to access license details?
+  - https://www.uspa.org/
 - WindsAloft?
   - What are people using across the globe? (jump spot app?)
+  - https://www.markschulze.net/winds/
+  - https://aviationweather.gov/data/windtemp/?region=dfw&fcst=06&level=low
 - Weather
   - Local weather, 24 hours and next 3 days
+  - weather.com or wunderground.com?
 - BurbleMe
   - Is there an API?
   - Can we access jumper information?
+  - https://www.burblesoftware.com/tech-specs/3rd-party-integrations/
+- smartwaver
+  - https://www.smartwaiver.com/
+  - https://api.smartwaiver.com/api/docs
+- SpotAssist
+  - https://www.spotassist.com/
 
 ## additional ideas
 
@@ -136,11 +168,19 @@ Phase 2 could be more focused on an app with caching, schedule, chat and other e
   - multiple sim/esim + wifi bridging + ethernet wan with failover priorities
   - could also do wifi mesh to extend range
 
-### app
+### app/notes
 
 - run the app on a raspberry pi to keep the service local (minimize internet connectivity)
 - cloud hosting
 - supporting multiple languages
+- need to consider how the site could be run long term
+  - How do we handle multiple boogies?
+  - How do we handle multiple boogies at the same time?
+  - What do we do with old boogie information?
+  - How do we distinguish between boogies if multiple at the same time?
+    - FQDN?  or URL?  or cookie?
+  - How do we manage the data structure?
+    - do we base it around each "event"
 
 ## Emergency Details and Proceedures
 
